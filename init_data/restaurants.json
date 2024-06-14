@@ -1,0 +1,393 @@
+[
+    {
+      "id": "200",
+      "name": "Phở Thìn",
+      "type": "Dine-In",
+      "tags": ["phở", "Vietnamese", "noodles", "beef"],
+      "location": "13 Lò Đúc, Hà Nội",
+      "distance": 2000,
+      "time": 15,
+      "images": {
+        "logo": "phothin",
+        "poster": "phothin",
+        "cover": "phothin_cover"
+      },
+      "categories": ["Phở", "Noodles", "Soups"]
+    },
+    {
+      "id": "201",
+      "name": "Bún Chả Hàng Mành",
+      "type": "Dine-In",
+      "tags": ["bún chả", "Vietnamese", "grilled pork", "noodles"],
+      "location": "1 Hàng Mành, Hà Nội",
+      "distance": 1500,
+      "time": 10,
+      "images": {
+        "logo": "bunchahm",
+        "poster": "bunchahm",
+        "cover": "bunchahm_cover"
+      },
+      "categories": ["Bún Chả", "Noodles", "Grilled Pork"]
+    },
+    {
+      "id": "202",
+      "name": "Cơm Tấm Ba Ghiền",
+      "type": "Take-Away",
+      "tags": ["cơm tấm", "Vietnamese", "rice", "pork chop"],
+      "location": "84 Đặng Văn Ngữ, TP.HCM",
+      "distance": 5000,
+      "time": 20,
+      "images": {
+        "logo": "comtambgh",
+        "poster": "comtambgh",
+        "cover": "comtambgh_cover"
+      },
+      "categories": ["Cơm Tấm", "Rice", "Pork"]
+    },
+    {
+      "id": "203",
+      "name": "Gánh Bún Bò Huế",
+      "type": "Dine-In",
+      "tags": ["bún bò Huế", "Vietnamese", "noodles", "beef"],
+      "location": "45A Hùng Vương, Huế",
+      "distance": 2500,
+      "time": 15,
+      "images": {
+        "logo": "bunbohue",
+        "poster": "bunbohue",
+        "cover": "bunbohue_cover"
+      },
+      "categories": ["Bún Bò Huế", "Noodles", "Soups"]
+    },
+    {
+      "id": "204",
+      "name": "Lẩu Nấm Ashima",
+      "type": "Dine-In",
+      "tags": ["lẩu", "Vietnamese", "hotpot", "mushrooms"],
+      "location": "44 Lê Đại Hành, Hà Nội",
+      "distance": 3000,
+      "time": 25,
+      "images": {
+        "logo": "ashima",
+        "poster": "ashima",
+        "cover": "ashima_cover"
+      },
+      "categories": ["Hotpot", "Mushrooms", "Vietnamese Cuisine"]
+    },
+    {
+      "id": "205",
+      "name": "Sushi Bar",
+      "type": "Dine-In",
+      "tags": ["sushi", "Japanese", "seafood", "rice"],
+      "location": "2A Nguyễn Thị Minh Khai, TP.HCM",
+      "distance": 6000,
+      "time": 30,
+      "images": {
+        "logo": "sushibar",
+        "poster": "sushibar",
+        "cover": "sushibar_cover"
+      },
+      "categories": ["Sushi", "Sashimi", "Japanese Cuisine"]
+    },
+    {
+      "id": "206",
+      "name": "Tokbokki King",
+      "type": "Dine-In",
+      "tags": ["tokbokki", "Korean", "spicy", "rice cakes"],
+      "location": "25 Lý Tự Trọng, TP.HCM",
+      "distance": 4500,
+      "time": 20,
+      "images": {
+        "logo": "tokbokkiking",
+        "poster": "tokbokkiking",
+        "cover": "tokbokkiking_cover"
+      },
+      "categories": ["Tokbokki", "Korean Cuisine", "Spicy Food"]
+    },
+    {
+      "id": "207",
+      "name": "Hotpot Story",
+      "type": "Dine-In",
+      "tags": ["hotpot", "Chinese", "seafood", "meat"],
+      "location": "50B Nguyễn Thị Minh Khai, Hà Nội",
+      "distance": 5500,
+      "time": 30,
+      "images": {
+        "logo": "hotpotstory",
+        "poster": "hotpotstory",
+        "cover": "hotpotstory_cover"
+      },
+      "categories": ["Hotpot", "Chinese Cuisine", "Seafood", "Meat"]
+    },
+    {
+      "id": "208",
+      "name": "Pizza 4P's",
+      "type": "Dine-In",
+      "tags": ["pizza", "Italian", "fusion", "cheese"],
+      "location": "8/15 Lê Thánh Tôn, TP.HCM",
+      "distance": 4800,
+      "time": 28,
+      "images": {
+        "logo": "pizza4ps",
+        "poster": "pizza4ps",
+        "cover": "pizza4ps_cover"
+      },
+      "categories": ["Pizza", "Italian Cuisine", "Fusion"]
+    },
+    {
+      "id": "209",
+      "name": "Highlands Coffee",
+      "type": "Cafe",
+      "tags": ["coffee", "Vietnamese", "drinks", "tea"],
+      "location": "1 Nguyễn Văn Cừ, Hà Nội",
+      "distance": 3500,
+      "time": 15,
+      "images": {
+        "logo": "highlandscoffee",
+        "poster": "highlandscoffee",
+        "cover": "highlandscoffee_cover"
+      },
+      "categories": [
+        "Coffee",
+        "Tea",
+        "Beverages",
+        "Snacks"
+      ]
+    },
+    {
+      "id": "210",
+      "name": "The Coffee House",
+      "type": "Cafe",
+      "tags": ["coffee", "Vietnamese", "drinks", "tea"],
+      "location": "6 Phan Đình Phùng, TP.HCM",
+      "distance": 3600,
+      "time": 16,
+      "images": {
+        "logo": "thecoffeehouse",
+        "poster": "thecoffeehouse",
+        "cover": "thecoffeehouse_cover"
+      },
+      "categories": [
+        "Coffee",
+        "Tea",
+        "Beverages",
+        "Snacks"
+      ]
+    },
+    {
+      "id": "211",
+      "name": "Lotteria",
+      "type": "Dine-In",
+      "tags": ["burgers", "chicken", "fries", "fast food"],
+      "location": "25 Nguyễn Thị Minh Khai, TP.HCM",
+      "distance": 4000,
+      "time": 20,
+      "images": {
+        "logo": "lotteria",
+        "poster": "lotteria",
+        "cover": "lotteria_cover"
+      },
+      "categories": [
+        "Burgers",
+        "Chicken",
+        "Fries",
+        "Fast Food"
+      ]
+    },
+    {
+        "id": "212",
+        "name": "Nhà Hàng Sen Tây Hồ",
+        "type": "Dine-In",
+        "tags": ["buffet", "Vietnamese", "seafood", "grilled"],
+        "location": "614 Lạc Long Quân, Hà Nội",
+        "distance": 5500,
+        "time": 30,
+        "images": {
+        "logo": "sentaibo",
+        "poster": "sentaibo",
+        "cover": "sentaibo_cover"
+        },
+        "categories": ["Buffet", "Seafood", "Grilled"]
+    },
+    {
+        "id": "213",
+        "name": "Lẩu Phan",
+        "type": "Dine-In",
+        "tags": ["hotpot", "Vietnamese", "beef", "pork"],
+        "location": "485 Hoàng Quốc Việt, Hà Nội",
+        "distance": 6500,
+        "time": 35,
+        "images": {
+        "logo": "lauphan",
+        "poster": "lauphan",
+        "cover": "lauphan_cover"
+        },
+        "categories": ["Hotpot", "Beef", "Pork"]
+    },
+    {
+        "id": "214",
+        "name": "Nhà Hàng Chen",
+        "type": "Dine-In",
+        "tags": ["Japanese", "teppanyaki", "seafood", "beef"],
+        "location": "18 Đào Tấn, Hà Nội",
+        "distance": 4500,
+        "time": 28,
+        "images": {
+        "logo": "chen",
+        "poster": "chen",
+        "cover": "chen_cover"
+        },
+        "categories": ["Teppanyaki", "Sushi", "Japanese Cuisine"]
+    },
+    {
+        "id": "215",
+        "name": "Quán Ăn Ngon",
+        "type": "Dine-In",
+        "tags": ["Vietnamese", "traditional", "noodles", "rice"],
+        "location": "18 Phan Bội Châu, Hà Nội",
+        "distance": 3000,
+        "time": 18,
+        "images": {
+        "logo": "quananngon",
+        "poster": "quananngon",
+        "cover": "quananngon_cover"
+        },
+        "categories": ["Traditional", "Noodles", "Rice"]
+    },
+    {
+        "id": "216",
+        "name": "Nhà Hàng Dim Tu Tac",
+        "type": "Dine-In",
+        "tags": ["Chinese", "dim sum", "seafood", "noodles"],
+        "location": "55 Đông Du, TP.HCM",
+        "distance": 4200,
+        "time": 24,
+        "images": {
+        "logo": "dimtutac",
+        "poster": "dimtutac",
+        "cover": "dimtutac_cover"
+        },
+        "categories": ["Dim Sum", "Seafood", "Chinese Cuisine"]
+    },
+    {
+        "id": "217",
+        "name": "Gangnam BBQ",
+        "type": "Dine-In",
+        "tags": ["Korean", "bbq", "grilled", "beef"],
+        "location": "17T6 Hoàng Đạo Thúy, Hà Nội",
+        "distance": 5200,
+        "time": 26,
+        "images": {
+        "logo": "gangnambbq",
+        "poster": "gangnambbq",
+        "cover": "gangnambbq_cover"
+        },
+        "categories": ["BBQ", "Grilled", "Korean Cuisine"]
+    },
+    {
+        "id": "218",
+        "name": "Nhà Hàng Shang Palace",
+        "type": "Dine-In",
+        "tags": ["Chinese", "fine dining", "seafood", "dim sum"],
+        "location": "17 Lê Duẩn, TP.HCM",
+        "distance": 5000,
+        "time": 30,
+        "images": {
+        "logo": "shangpalace",
+        "poster": "shangpalace",
+        "cover": "shangpalace_cover"
+        },
+        "categories": ["Fine Dining", "Seafood", "Dim Sum", "Chinese Cuisine"]
+    },
+    {
+        "id": "219",
+        "name": "Marukame Udon",
+        "type": "Dine-In",
+        "tags": ["Japanese", "udon", "noodles", "tempura"],
+        "location": "215 Lý Tự Trọng, TP.HCM",
+        "distance": 4600,
+        "time": 25,
+        "images": {
+        "logo": "marukame",
+        "poster": "marukame",
+        "cover": "marukame_cover"
+        },
+        "categories": ["Udon", "Noodles", "Japanese Cuisine", "Tempura"]
+    },
+    {
+        "id": "220",
+        "name": "Sumo Yakiniku",
+        "type": "Dine-In",
+        "tags": ["Japanese", "bbq", "grilled", "beef"],
+        "location": "300 Lê Văn Sỹ, TP.HCM",
+        "distance": 5200,
+        "time": 30,
+        "images": {
+        "logo": "sumoyakiniku",
+        "poster": "sumoyakiniku",
+        "cover": "sumoyakiniku_cover"
+        },
+        "categories": ["BBQ", "Grilled", "Japanese Cuisine", "Beef"]
+    },
+    {
+        "id": "221",
+        "name": "Nhà Hàng Tung Lok Heen",
+        "type": "Dine-In",
+        "tags": ["Chinese", "fine dining", "seafood", "noodles"],
+        "location": "105 Nguyễn Văn Trỗi, TP.HCM",
+        "distance": 4800,
+        "time": 28,
+        "images": {
+        "logo": "tunglokheen",
+        "poster": "tunglokheen",
+        "cover": "tunglokheen_cover"
+        },
+        "categories": ["Fine Dining", "Seafood", "Noodles", "Chinese Cuisine"]
+    },
+    {
+        "id": "222",
+        "name": "Kichi Kichi",
+        "type": "Dine-In",
+        "tags": ["hotpot", "Vietnamese", "buffet", "meat"],
+        "location": "15 Huỳnh Thúc Kháng, Hà Nội",
+        "distance": 3700,
+        "time": 22,
+        "images": {
+        "logo": "kichikichi",
+        "poster": "kichikichi",
+        "cover": "kichikichi_cover"
+        },
+        "categories": ["Hotpot", "Buffet", "Vietnamese Cuisine", "Meat"]
+    },
+    {
+        "id": "223",
+        "name": "Mì Cay Seoul",
+        "type": "Dine-In",
+        "tags": ["noodles", "Korean", "spicy", "seafood"],
+        "location": "100C Cách Mạng Tháng 8, TP.HCM",
+        "distance": 5000,
+        "time": 26,
+        "images": {
+        "logo": "micayseoul",
+        "poster": "micayseoul",
+        "cover": "micayseoul_cover"
+        },
+        "categories": ["Noodles", "Korean Cuisine", "Spicy Food", "Seafood"]
+    },
+    {
+        "id": "224",
+        "name": "Manwah Taiwanese Hotpot",
+        "type": "Dine-In",
+        "tags": ["hotpot", "Taiwanese", "seafood", "meat"],
+        "location": "1B Lý Thường Kiệt, Hà Nội",
+        "distance": 4300,
+        "time": 24,
+        "images": {
+        "logo": "manwah",
+        "poster": "manwah",
+        "cover": "manwah_cover"
+        },
+        "categories": ["Hotpot", "Taiwanese Cuisine", "Seafood", "Meat"]
+    }
+]
+  

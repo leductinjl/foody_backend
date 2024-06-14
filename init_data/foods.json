@@ -1,0 +1,522 @@
+[
+    {
+      "id": "2003",
+      "restaurantId": "200",
+      "name": "Phở Bò",
+      "price": 50000,
+      "image": "phobochin",
+      "category": "Phở",
+      "description": "Một tô phở nồng hấp dẫn với nước dùng được ninh từ xương bò và các loại gia vị tự nhiên, kèm theo thịt bò thơm ngon và bánh phở mềm mịn.",
+      "ingredients": "Xương bò, Hành, Gừng, Hạt tiêu, Bánh phở"
+    },
+    {
+      "id": "2004",
+      "restaurantId": "200",
+      "name": "Gỏi Cuốn",
+      "price": 35000,
+      "image": "goicuonphothin",
+      "category": "Appetizers",
+      "description": "Món gỏi cuốn tươi mát và bổ dưỡng, bao gồm các loại rau sống, tôm, thịt bò hoặc thịt heo cuốn trong lớp bánh tráng mỏng.",
+      "ingredients": "Tôm, Thịt bò hoặc thịt heo, Rau sống, Bánh tráng"
+    },
+    {
+      "id": "2013",
+      "restaurantId": "201",
+      "name": "Bún Chả",
+      "price": 40000,
+      "image": "bunchahangmanh",
+      "category": "Bún Chả",
+      "description": "Một phần bún tươi mềm được kết hợp với thịt heo nướng thơm lừng, chấm cùng nước mắm pha chua ngọt và thêm rau sống, rau sống và giá xanh.",
+      "ingredients": "Bún, Thịt heo, Nước mắm, Rau sống, Giá xanh"
+    },
+    {
+      "id": "2014",
+      "restaurantId": "201",
+      "name": "Gỏi Cuốn Tôm",
+      "price": 30000,
+      "image": "goicuonbunchahangmanh",
+      "category": "Appetizers",
+      "description": "Một món gỏi cuốn tươi mát với tôm tươi, rau sống và bún mềm, được cuốn trong lớp bánh tráng mỏng.",
+      "ingredients": "Tôm, Rau sống, Bún, Bánh tráng"
+    },
+    {
+      "id": "2023",
+      "restaurantId": "202",
+      "name": "Cơm Tấm Sườn Bì",
+      "price": 40000,
+      "image": "comtambagh",
+      "category": "Cơm Tấm",
+      "description": "Một phần cơm tấm thơm phức được kết hợp với sườn nướng và bì heo, thêm một ít dưa leo chua ngọt và rau sống.",
+      "ingredients": "Cơm tấm, Sườn nướng, Bì heo, Dưa leo, Rau sống"
+    },
+    {
+      "id": "2024",
+      "restaurantId": "202",
+      "name": "Chả Giò",
+      "price": 25000,
+      "image": "chagio",
+      "category": "Appetizers",
+      "description": "Một loại chả giò giòn tan với nhân bên trong là thịt heo xay và các loại rau củ, thường được ăn kèm với nước mắm chua ngọt.",
+      "ingredients": "Thịt heo xay, Rau củ, Bánh tráng, Nước mắm"
+    },
+    {
+        "id": "2033",
+        "restaurantId": "203",
+        "name": "Bún Bò Nam Giao",
+        "price": 45000,
+        "image": "bunbonamgiao",
+        "category": "Bún Bò Huế",
+        "description": "Một tô bún bò Huế đậm đà với nước dùng nồng nàn được ủ từ xương bò và các loại gia vị đặc trưng, kèm theo thịt bò mềm và chả cua.",
+        "ingredients": "Xương bò, Hành, Ớt, Mắm ruốc, Thịt bò, Chả cua"
+    },
+    {
+        "id": "2034",
+        "restaurantId": "203",
+        "name": "Nem Lụi",
+        "price": 30000,
+        "image": "nemluibunbohue",
+        "category": "Appetizers",
+        "description": "Một loại nem lụi thơm ngon với thịt heo được cuộn trên que gỗ và nướng chín, thường được ăn kèm với nước mắm chua ngọt và rau sống.",
+        "ingredients": "Thịt heo, Que tre, Rau sống, Bánh tráng, Nước mắm"
+    },
+    {
+        "id": "2043",
+        "restaurantId": "204",
+        "name": "Lẩu Nấm Hải Sản",
+        "price": 120000,
+        "image": "launamashima",
+        "category": "Lẩu",
+        "description": "Một nồi lẩu nấm hải sản đậm đà với các loại nấm tươi và hải sản tươi ngon, kèm theo nước dùng đặc biệt được pha chế từ nhiều loại gia vị tự nhiên.",
+        "ingredients": "Nấm hải sản, Tôm, Mực, Cá, Rau sống"
+    },
+    {
+        "id": "2044",
+        "restaurantId": "204",
+        "name": "Gỏi Nấm Trộn",
+        "price": 60000,
+        "image": "goinamashima",
+        "category": "Appetizers",
+        "description": "Một món gỏi nấm tươi và rau sống, được trộn đều với gia vị đậm đà và chua ngọt, tạo ra hương vị hấp dẫn và bổ dưỡng.",
+        "ingredients": "Nấm tươi, Rau sống, Gia vị trộn, Nước sốt"
+    },
+    {
+        "id": "2053",
+        "restaurantId": "205",
+        "name": "Sushi Combo",
+        "price": 180000,
+        "image": "sushicombo",
+        "category": "Sushi",
+        "description": "Một combo sushi đa dạng với các loại sashimi và nigiri, được làm từ các loại hải sản tươi ngon như cá hồi, cá ngừ và tôm.",
+        "ingredients": "Cá hồi, Cá ngừ, Tôm, Gạo sushi, Rau sống"
+    },
+    {
+        "id": "2054",
+        "restaurantId": "205",
+        "name": "Tempura Moriawase",
+        "price": 150000,
+        "image": "tempuramoriawase1",
+        "category": "Appetizers",
+        "description": "Một combo tempura gồm các loại rau củ và hải sản được chiên giòn trong bột chiên xù, thường được kèm theo nước chấm đặc biệt.",
+        "ingredients": "Tôm, Cá, Cà rốt, Bí ngô, Bột chiên xù"
+    },
+    {
+        "id": "2063",
+        "restaurantId": "206",
+        "name": "Tokbokki Cá",
+        "price": 60000,
+        "image": "tokbokkicatokbokkiking",
+        "category": "Tokbokki",
+        "description": "Một phần tokbokki cay nồng với các miếng cá tươi ngon được nấu chín trong nước sốt cay, kèm theo bánh gạo và cà rốt.",
+        "ingredients": "Cá, Bánh gạo, Cà rốt, Nước sốt cay"
+    },
+    {
+        "id": "2064",
+        "restaurantId": "206",
+        "name": "Kimchi Bokkeumbap",
+        "price": 55000,
+        "image": "kimchibokkeumbap",
+        "category": "Rice Dishes",
+        "description": "Một đĩa bokkeumbap hấp dẫn với cơm trắng được xào cùng kimchi, thịt heo hoặc thịt bò và các loại rau củ.",
+        "ingredients": "Cơm, Kimchi, Thịt heo hoặc thịt bò, Rau củ"
+    },
+    {
+        "id": "2073",
+        "restaurantId": "207",
+        "name": "Hotpot Mix",
+        "price": 200000,
+        "image": "hotpotmix",
+        "category": "Hotpot",
+        "description": "Một nồi lẩu đa dạng với các loại hải sản và thịt được chế biến tươi ngon, kèm theo nước dùng thơm ngon.",
+        "ingredients": "Tôm, Cá, Thịt bò, Thịt heo, Rau sống, Nấm"
+    },
+    {
+        "id": "2074",
+        "restaurantId": "207",
+        "name": "Xiaolongbao",
+        "price": 45000,
+        "image": "xiaolongbao",
+        "category": "Appetizers",
+        "description": "Một loại xiaolongbao truyền thống với nhân thịt heo và nước dung dày đặc, được hấp chín trong lớp bột mỏng.",
+        "ingredients": "Thịt heo, Nước dung, Bột mỳ"
+    },
+    {
+        "id": "2083",
+        "restaurantId": "208",
+        "name": "Pizza Quattro Formaggi",
+        "price": 220000,
+        "image": "pizzaquattroformaggi",
+        "category": "Pizza",
+        "description": "Một chiếc pizza ngon lành với bốn loại phô mai khác nhau (mozzarella, parmesan, gorgonzola và provolone), phủ trên lớp sốt cà chua thơm ngon.",
+        "ingredients": "Mozzarella, Parmesan, Gorgonzola, Provolone, Sốt cà chua, Bột bánh pizza"
+    },
+    {
+        "id": "2084",
+        "restaurantId": "208",
+        "name": "Insalata Caprese",
+        "price": 120000,
+        "image": "insalatacaprese",
+        "category": "Appetizers",
+        "description": "Một phần salad Caprese tươi mát với cà chua, phô mai mozzarella và rau sống, tẩm ướp trong dầu olive và gia vị.",
+        "ingredients": "Cà chua, Mozzarella, Rau sống, Dầu olive, Gia vị"
+    },
+    {
+        "id": "2093",
+        "restaurantId": "209",
+        "name": "Cà Phê Đen Đá",
+        "price": 35000,
+        "image": "caphehighlandscoffee",
+        "category": "Coffee",
+        "description": "Một ly cà phê đen đá thơm nồng, pha chế từ hạt cà phê chất lượng cao, mang lại cảm giác tỉnh táo và sảng khoái.",
+        "ingredients": "Hạt cà phê, Đá"
+    },
+    {
+        "id": "2094",
+        "restaurantId": "209",
+        "name": "Trà Đào",
+        "price": 45000,
+        "image": "tradahighlandscoffee",
+        "category": "Tea",
+        "description": "Một ly trà đào mát lạnh, pha chế từ trà đen tinh khiết và hương đào tự nhiên, mang lại hương vị thơm ngon và bổ dưỡng.",
+        "ingredients": "Trà đen, Hương đào, Đá"
+    },
+    {
+        "id": "2103",
+        "restaurantId": "210",
+        "name": "Cappuccino",
+        "price": 55000,
+        "image": "cappuccinothecoffeehouse",
+        "category": "Coffee",
+        "description": "Một ly cà phê cappuccino thơm ngon với lớp bọt sữa mịn và hương vị cà phê đắng ngọt cân đối, phù hợp cho mọi thời điểm trong ngày.",
+        "ingredients": "Cà phê, Sữa"
+    },
+    {
+        "id": "2104",
+        "restaurantId": "210",
+        "name": "Trà Đào Cam Sả",
+        "price": 50000,
+        "image": "tradacaithecoffeehouse",
+        "category": "Tea",
+        "description": "Một ly trà đào cam sả mát lạnh, kết hợp giữa hương vị đào tự nhiên, hương thơm của cam và sả tươi mát, mang lại cảm giác sảng khoái.",
+        "ingredients": "Trà đào, Cam, Sả, Đá"
+    },
+    {
+        "id": "2113",
+        "restaurantId": "211",
+        "name": "Lotteria Burger",
+        "price": 75000,
+        "image": "lotteriaburger",
+        "category": "Burgers",
+        "description": "Một chiếc burger thơm ngon với bánh mì mềm, thịt bò xay, cà chua, hành tây, dưa leo và sốt mayonnaise, thường được kèm theo khoai tây chiên.",
+        "ingredients": "Bánh mì, Thịt bò xay, Cà chua, Hành tây, Dưa leo, Mayonnaise, Khoai tây chiên"
+    },
+    {
+        "id": "2114",
+        "restaurantId": "211",
+        "name": "Cánh gà chiên giòn",
+        "price": 60000,
+        "image": "friedchickenwings",
+        "category": "Appetizers",
+        "description": "Một phần cánh gà chiên giòn và thơm ngon, được ướp gia vị và chiên đều cho đến khi vàng óng.",
+        "ingredients": "Cánh gà, Gia vị, Dầu ăn"
+    },
+    {
+        "id": "2115",
+        "restaurantId": "211",
+        "name": "Combo Lotteria",
+        "price": 75000,
+        "image": "combolotteria",
+        "category": "Combo Meals",
+        "description": "Một combo đa dạng với hamburger, khoai tây chiên và nước ngọt, thích hợp cho bữa ăn nhanh hấp dẫn.",
+        "ingredients": "Bánh hamburger, Khoai tây, Nước ngọt"
+    },
+    {
+        "id": "2116",
+        "restaurantId": "211",
+        "name": "Gà Rán",
+        "price": 45000,
+        "image": "garanlotteria",
+        "category": "Chicken",
+        "description": "Một phần gà rán thơm giòn với lớp vỏ ngoài giòn rụm và thịt gà mềm mịn bên trong, được phục vụ kèm theo nước sốt.",
+        "ingredients": "Gà, Bột chiên xù, Nước sốt"
+    },
+    {
+        "id": "2123",
+        "restaurantId": "212",
+        "name": "Lẩu Phan Thập Cẩm",
+        "price": 180000,
+        "image": "lauphanthapcam",
+        "category": "Lẩu",
+        "description": "Một nồi lẩu đa dạng với các loại thịt bò, thịt heo và hải sản tươi ngon, kèm theo rau sống và nước dùng thơm ngon.",
+        "ingredients": "Thịt bò, Thịt heo, Tôm, Mực, Nấm, Rau sống"
+    },
+    {
+        "id": "2124",
+        "restaurantId": "212",
+        "name": "Bò Lúc Lắc",
+        "price": 150000,
+        "image": "boluclac",
+        "category": "Beef",
+        "description": "Một đĩa bò lúc lắc thơm ngon với thịt bò xào nhanh trong gia vị đặc biệt, được phục vụ nóng hổi với cơm trắng.",
+        "ingredients": "Thịt bò, Rau sống, Gia vị"
+    },
+    {
+        "id": "2133",
+        "restaurantId": "213",
+        "name": "Lẩu Bò",
+        "price": 120000,
+        "image": "laubolauphan",
+        "category": "Hotpot",
+        "description": "Một nồi lẩu nóng hổi với thịt bò tươi ngon và đủ loại rau sống, kèm theo nước dùng đậm đà được nấu từ xương bò.",
+        "ingredients": "Thịt bò, Rau sống, Nước dùng"
+    },
+    {
+        "id": "2134",
+        "restaurantId": "213",
+        "name": "Thịt Nướng",
+        "price": 90000,
+        "image": "thitnuonglauphan",
+        "category": "Grilled",
+        "description": "Một phần thịt nướng thơm phức với thịt bò và thịt heo được ướp gia vị và nướng chín, thường được ăn kèm với nước mắm chua ngọt.",
+        "ingredients": "Thịt bò, Thịt heo, Gia vị"
+    },
+    {
+        "id": "2143",
+        "restaurantId": "214",
+        "name": "Salmon Sashimi",
+        "price": 180000,
+        "image": "salmonsashimi",
+        "category": "Sashimi",
+        "description": "Một phần sashimi tươi ngon với các lát cá hồi mềm mịn, thường được kèm theo gừng tươi và wasabi.",
+        "ingredients": "Cá hồi, Gừng, Wasabi"
+    },
+    {
+        "id": "2144",
+        "restaurantId": "214",
+        "name": "Beef Teppanyaki",
+        "price": 250000,
+        "image": "beeftteppanyaki",
+        "category": "Teppanyaki",
+        "description": "Một món bò teppanyaki nóng hổi với thịt bò tươi ngon được chiên nhanh trên bếp teppan cùng với rau củ và gia vị.",
+        "ingredients": "Thịt bò, Rau củ, Gia vị"
+    },
+    {
+        "id": "2153",
+        "restaurantId": "215",
+        "name": "Bún Chả Hà Nội",
+        "price": 60000,
+        "image": "bunchahanoi",
+        "category": "Bún Chả",
+        "description": "Một phần bún chả truyền thống với các lát thịt heo nướng, chả giòn và bún mềm, thường được kèm theo rau sống và nước mắm.",
+        "ingredients": "Thịt heo, Chả, Bún, Rau sống, Nước mắm"
+    },
+    {
+        "id": "2154",
+        "restaurantId": "215",
+        "name": "Phở Bò Tái",
+        "price": 55000,
+        "image": "phobotai",
+        "category": "Phở",
+        "description": "Một tô phở bò truyền thống với bò tái mềm và thơm, được nấu trong nước dùng thơm ngon và phủ trên lớp bún mềm.",
+        "ingredients": "Thịt bò tái, Bún, Nước dùng, Rau sống, Gia vị"
+    },
+    {
+        "id": "2163",
+        "restaurantId": "216",
+        "name": "Tokbokki Gà",
+        "price": 55000,
+        "image": "tokbokkigatokbokkiking",
+        "category": "Tokbokki",
+        "description": "Một phần tokbokki thơm ngon với miếng gà giòn, nấu chín trong nước sốt cay, kèm theo bánh gạo và cà rốt.",
+        "ingredients": "Gà, Bánh gạo, Cà rốt, Nước sốt cay"
+    },
+    {
+        "id": "2164",
+        "restaurantId": "216",
+        "name": "Japchae",
+        "price": 75000,
+        "image": "japchae",
+        "category": "Noodles",
+        "description": "Một món Japchae truyền thống với mì sợi, thịt bò, rau củ và nấm, được xào đều trong dầu mỡ và gia vị.",
+        "ingredients": "Mì sợi, Thịt bò, Rau củ, Nấm, Dầu mỡ, Gia vị"
+    },
+    {
+        "id": "2173",
+        "restaurantId": "217",
+        "name": "Gà Nướng BBQ",
+        "price": 150000,
+        "image": "ganuongbbq",
+        "category": "BBQ",
+        "description": "Một phần gà nướng BBQ thơm ngon với thịt gà được ướp gia vị và nướng trên lửa than nóng hổi, kèm theo sốt nước mắm chua ngọt.",
+        "ingredients": "Thịt gà, Gia vị, Nước mắm"
+    },
+    {
+        "id": "2174",
+        "restaurantId": "217",
+        "name": "Bánh Tráng Trộn",
+        "price": 50000,
+        "image": "banhtrangtron",
+        "category": "Appetizers",
+        "description": "Một phần bánh tráng trộn với các loại gia vị, rau củ và đậu phộng giòn, tạo nên hương vị độc đáo và thơm ngon.",
+        "ingredients": "Bánh tráng, Rau củ, Đậu phộng, Gia vị"
+    },
+    {
+        "id": "2183",
+        "restaurantId": "218",
+        "name": "Hải Sản Hấp",
+        "price": 280000,
+        "image": "haisanhapshangpalace",
+        "category": "Seafood",
+        "description": "Một phần hải sản hấp tươi ngon với các loại tôm, sò điệp và cua, được hấp chín tới vàng óng và thơm ngon.",
+        "ingredients": "Tôm, Sò điệp, Cua, Gia vị"
+    },
+    {
+        "id": "2184",
+        "restaurantId": "218",
+        "name": "Cá Hồi Xông Khói",
+        "price": 320000,
+        "image": "cahoixongkhoishangpalace",
+        "category": "Seafood",
+        "description": "Một phần cá hồi xông khói thơm ngon với lớp da giòn và thịt cá mềm, tạo nên hương vị đặc biệt và độc đáo.",
+        "ingredients": "Cá hồi, Muối, Gia vị"
+    },
+    {
+        "id": "2193",
+        "restaurantId": "219",
+        "name": "Cơm Tấm Sườn Bì Chả",
+        "price": 70000,
+        "image": "comtamsuonbicha",
+        "category": "Cơm Tấm",
+        "description": "Một đĩa cơm tấm thơm ngon với sườn heo, bì heo và chả truyền thống, kèm theo dưa leo, cà rốt và rau sống.",
+        "ingredients": "Sườn heo, Bì heo, Chả, Dưa leo, Cà rốt, Rau sống"
+    },
+    {
+        "id": "2194",
+        "restaurantId": "219",
+        "name": "Phở Gà",
+        "price": 65000,
+        "image": "phoga",
+        "category": "Phở",
+        "description": "Một tô phở gà thơm ngon với thịt gà mềm và bún mềm, được nấu trong nước dùng thơm ngon và phủ trên lớp hành phi và rau sống.",
+        "ingredients": "Thịt gà, Bún, Nước dùng, Hành phi, Rau sống"
+    },
+    {
+        "id": "2203",
+        "restaurantId": "220",
+        "name": "Beef Yakiniku Set",
+        "price": 220000,
+        "image": "beefyakinikuset",
+        "category": "BBQ",
+        "description": "Một bộ combo yakiniku bò tươi ngon với các lát thịt bò được ướp gia vị và nướng trên bếp than hoa, kèm theo rau sống và sốt tương đặc biệt.",
+        "ingredients": "Thịt bò, Rau sống, Sốt tương"
+    },
+    {
+        "id": "2204",
+        "restaurantId": "220",
+        "name": "Tempura Moriawase",
+        "price": 180000,
+        "image": "tempuramoriawase2",
+        "category": "Tempura",
+        "description": "Một phần tempura đa dạng với các loại hải sản và rau củ, được chiên giòn trong bột tempura và kèm theo sốt tương đặc biệt.",
+        "ingredients": "Tôm, Cá, Rau củ, Bột tempura, Sốt tương"
+    },
+    {
+        "id": "2213",
+        "restaurantId": "221",
+        "name": "Dim Sum Combo",
+        "price": 150000,
+        "image": "dimsumcombo",
+        "category": "Dim Sum",
+        "description": "Một combo dim sum đa dạng với các loại bánh bao, há cảo và hargao, được chế biến tươi ngon và thơm ngon.",
+        "ingredients": "Bánh bao, Há cảo, Hargao"
+    },
+    {
+        "id": "2214",
+        "restaurantId": "221",
+        "name": "Wonton Soup",
+        "price": 80000,
+        "image": "wontonsoup",
+        "category": "Soup",
+        "description": "Một tô súp wonton đầy đặn với các viên wonton mềm và thơm, được nấu trong nước dùng thơm ngon và kèm theo rau củ.",
+        "ingredients": "Viên wonton, Nước dùng, Rau củ"
+    },
+    {
+        "id": "2223",
+        "restaurantId": "222",
+        "name": "Kimchi Udon",
+        "price": 90000,
+        "image": "kimchiudon",
+        "category": "Udon",
+        "description": "Một đĩa udon truyền thống với kimchi chua cay và thịt heo, tạo nên hương vị độc đáo và thơm ngon.",
+        "ingredients": "Udon, Kimchi, Thịt heo, Gia vị"
+    },
+    {
+        "id": "2224",
+        "restaurantId": "222",
+        "name": "Bánh Mì Gà Nướng",
+        "price": 60000,
+        "image": "banhmiganguong",
+        "category": "Sandwiches",
+        "description": "Một chiếc bánh mì gà nướng thơm ngon với thịt gà nướng và các loại rau sống, được bọc trong lớp bánh mì mềm mịn.",
+        "ingredients": "Thịt gà, Rau sống, Bánh mì"
+    },
+    {
+        "id": "2233",
+        "restaurantId": "223",
+        "name": "Mì Cay Hải Sản",
+        "price": 90000,
+        "image": "micayhaisan",
+        "category": "Noodles",
+        "description": "Một tô mì cay thơm ngon với hải sản đa dạng như tôm, mực và cá, nổi bật với hương vị cay nồng và đậm đà.",
+        "ingredients": "Tôm, Mực, Cá, Gia vị"
+    },
+    {
+        "id": "2234",
+        "restaurantId": "223",
+        "name": "Tokbokki Hàn Quốc",
+        "price": 80000,
+        "image": "tokbokkihanquoc",
+        "category": "Tokbokki",
+        "description": "Một phần tokbokki Hàn Quốc thơm ngon với bánh gạo giòn và sốt cay đặc trưng, kèm theo cà rốt và cải bẹ xanh.",
+        "ingredients": "Bánh gạo, Cà rốt, Cải bẹ xanh, Sốt cay"
+    },
+    {
+        "id": "2243",
+        "restaurantId": "224",
+        "name": "Mì Udon Hải Sản",
+        "price": 120000,
+        "image": "miudonhaisanmanwah",
+        "category": "Udon",
+        "description": "Một đĩa mì udon tươi ngon với hải sản đa dạng như tôm, sò điệp và cua, tạo nên hương vị đặc biệt và thơm ngon.",
+        "ingredients": "Tôm, Sò điệp, Cua, Gia vị"
+    },
+    {
+        "id": "2244",
+        "restaurantId": "224",
+        "name": "Bánh Mì Gà Xé",
+        "price": 75000,
+        "image": "banhmigaxemanwah",
+        "category": "Sandwiches",
+        "description": "Một chiếc bánh mì gà xé thơm ngon với thịt gà xé và sốt mayonnaise, kèm theo dưa chuột và cà rốt.",
+        "ingredients": "Thịt gà xé, Sốt mayonnaise, Dưa chuột, Cà rốt, Bánh mì"
+    }
+]      
